@@ -3,8 +3,10 @@ sudo apt-get update
 # Install Developer Tools
 sudo apt-get install vim \
 	tmux \
+	npm \
 	tig \
 	htop \
+	taskwarrior \
 	apt-transport-https \
 	ca-certifacates \
 	curl \
@@ -22,6 +24,7 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 sudo snap install code discord bitwarden chromium
+npm i -g mdlt
 
 # Install Media tools
 sudo apt-get vlc ffmpeg mcomix pinta darktable youtube-dl
